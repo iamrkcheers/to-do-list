@@ -1,0 +1,200 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  color: #3e434f;
+  font-family: "Lato";
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+::selection {
+  background: #50e3a4;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #50e3a4;
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #50e3a4;
+}
+
+::-moz-placeholder {
+  color: #50e3a4;
+}
+
+:-moz-placeholder {
+  color: #50e3a4;
+}
+
+:-ms-input-placeholder {
+  color: #50e3a4;
+}
+
+body {
+  background: #f0efe9;
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn {
+  background: #50e3a4 url("data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMxLjQ0NCAzMS40NDQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjQ0NCAzMS40NDQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPHBhdGggZD0iTTEuMTE5LDE2Ljg0MWMtMC42MTksMC0xLjExMS0wLjUwOC0xLjExMS0xLjEyN2MwLTAuNjE5LDAuNDkyLTEuMTExLDEuMTExLTEuMTExaDEzLjQ3NVYxLjEyNyAgQzE0LjU5NSwwLjUwOCwxNS4xMDMsMCwxNS43MjIsMGMwLjYxOSwwLDEuMTExLDAuNTA4LDEuMTExLDEuMTI3djEzLjQ3NmgxMy40NzVjMC42MTksMCwxLjEyNywwLjQ5MiwxLjEyNywxLjExMSAgYzAsMC42MTktMC41MDgsMS4xMjctMS4xMjcsMS4xMjdIMTYuODMzdjEzLjQ3NmMwLDAuNjE5LTAuNDkyLDEuMTI3LTEuMTExLDEuMTI3Yy0wLjYxOSwwLTEuMTI3LTAuNTA4LTEuMTI3LTEuMTI3VjE2Ljg0MUgxLjExOXoiIGZpbGw9IiM0NmJlOGIiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==") no-repeat center center;
+  border-radius: 50%;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+  height: 145px;
+  left: calc(50% - 72.5px);
+  position: absolute;
+  bottom: calc(100% - 72.5px);
+  width: 145px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.block {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+  margin: 100px auto;
+  padding: 80px;
+  position: relative;
+  width: 585px;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  flex-grow: 1;
+}
+
+li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+li a {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+li a:hover {
+  color: #bfc1cb;
+}
+
+.info-date {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  letter-spacing: 2px;
+  padding: 0 0 25px 0;
+  text-transform: uppercase;
+}
+
+.list-item {
+  color: #bfc1cb;
+}
+
+.addForm input {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #50e3a4;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #50e3a4;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.addForm input:focus {
+  outline: none;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background: #50e3a4;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.filter-item {
+  padding: 20px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.filter-item:hover {
+  color: #fff;
+  background: #46be8b;
+  cursor: pointer;
+}
+
+.addForm {
+  margin-bottom: 35px;
+}
+
+.non-active {
+  background: #327357;
+  color: #fff;
+}
+
+.non-active:hover {
+  background: #327357;
+  color: #fff;
+  cursor: default;
+}
+
+.todoItem {
+  cursor: pointer;
+  width: 100%;
+}
+
+.editableField {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #50e3a4;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #50e3a4;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.editBtn {
+  padding: 0 5%;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  cursor: pointer;
+}
+
+.backBtn {
+  padding-bottom: 5%;
+  font-style: italic;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+}
+
+.bucket {
+  padding: 0 2%;
+}
+
+.bucketLink {
+  width: 100%;
+}
