@@ -14,3 +14,7 @@ A todo list application with categories in react and redux.
 * Redux-logger - Middleware for logging any change in the state tree onto the console.
 * Lodash.Throttle - For integration while saving state to the local storage.
 * React-FontAwesome - For awesome fonts.
+
+## Getting Started
+* npm install
+* npm start
