@@ -11,6 +11,6 @@ A todo list application with categories in react and redux.
 * React - For Component based User Interface.
 * Redux - For maintaining a single source of data.
 * React-Router - For efficient routing within the application.
-* Redux-logger - For logging any change in the state tree onto the console.
+* Redux-logger - Middleware for logging any change in the state tree onto the console.
 * Lodash.Throttle - For integration while saving state to the local storage.
 * React-FontAwesome - For awesome fonts.
