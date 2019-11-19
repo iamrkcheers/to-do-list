@@ -16,5 +16,6 @@ A todo list application with categories in react and redux.
 * React-FontAwesome - For awesome fonts.
 
 ## Getting Started
+* Go into the directory
 * npm install
 * npm start
