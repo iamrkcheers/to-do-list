@@ -1,5 +1,5 @@
 # ToDoList
-A todo list application with categories in react and redux.
+A todo list application with categories, built in react and redux.
 
 ## Features
 * One can create, delete and edit a to-do.
