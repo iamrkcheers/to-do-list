@@ -1,4 +1,4 @@
-# ToDoList
+# to-do-list
 A todo list application with categories, built in react and redux.
 
 ## Features
