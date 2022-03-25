@@ -19,3 +19,4 @@ A todo list application with categories, built in react and redux.
 * Go into the directory
 * npm install
 * npm start
+
